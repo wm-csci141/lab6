@@ -13,7 +13,7 @@ In this lab, we will focus on the 2D case, where the bodies are confined to a pl
 
 ### Gravitational Force Calculation:
 The gravitational force between two bodies is given by the formula:
-$$ F = G \cdot \dfrac{m_1 \cdot m_2}{r^2} $$
+$F = G \cdot \dfrac{m_1 \cdot m_2}{r^2}$
 where:
 - $F$ is the force of gravity,
 - $G$ is the gravitational constant ($6.67430 \times 10^{-11} \, \text{m}^3 \text{kg}^{-1} \text{s}^{-2}$),
@@ -27,14 +27,14 @@ Velocity of each body is updated based on the gravitational forces acting upon i
 
 1. **Acceleration Calculation**:
    According to Newton's Second Law, the acceleration of a body is calculated as:
-   $$ a = \dfrac{F}{m} $$
+   $a = \dfrac{F}{m}$
    where:
    - $F$ is the net gravitational force acting on the body,
    - $m$ is the mass of the body.
 
 2. **Velocity Update**:
    The new velocity of the body is then calculated by adding the product of acceleration and a small time step $\Delta t$ to the old velocity:
-   $$ v_{\text{new}} = v_{\text{old}} + a \cdot \Delta t $$
+   $v_{\text{new}} = v_{\text{old}} + a \cdot \Delta t$
    where:
    - $v_{\text{new}}$ and $v_{\text{old}}$ are the new and old velocities of the body,
    - $a$ is the acceleration,
