@@ -105,9 +105,17 @@ There is no test for this problem. You can run it, record a 1min video, upload t
 
 ## Hint
 
-If you need to decompose the force on the x- and y-axis, you can check the figure below. The $F$ to $F_x$ and $F_y$ ratios are the same as the $r$ to $r_x$ and $r_y$ ratios.
+If you need to decompose the force on the x- and y-axis, you can check the figure below.
 
 ![triangle](triangle.svg)
+
+The $F$ to $F_x$ and $F_y$ ratios are the same as the $r$ to $r_x$ and $r_y$ ratios. So you can calculate $F_x$ and $F_y$ using the following formulas.
+
+$F_x = F \cdot \dfrac{r_x}{r}$
+
+$F_y = F \cdot \dfrac{r_y}{r}$
+
+
 
 
 
