@@ -92,7 +92,7 @@ Write a function `calculate_acceleration(body, system)` that takes a body and a 
 Write a function `update_velocity(system, dt)` that takes a system and a time step as arguments and updates the velocities of all the bodies in the system. The function should return the new states of the system. 
 
 ### Problem 6 (15pt) Update the position of all the bodies in the system.
-Write a function `update_system(system, dt)` that takes a system and a time step as arguments and updates the positions of all the bodies in the system. The function should return the new states of the system. In this function, make sure you call the `update_velocity` function first, so that you can use the new velocity to update the position.
+Write a function `update(system, dt)` that takes a system and a time step as arguments and updates the positions of all the bodies in the system. The function should return the new states of the system. In this function, make sure you call the `update_velocity` function first, so that you can use the new velocity to update the position.
 
 ### Problem 7 (10pt) Simulate the system for a given time period.
 Write a function `simulate(system, dt, num_steps)` that takes a system, a time step, and a number of steps as arguments and simulates the system for the given number of steps, with the given time step between consecutive steps. The function should return the final state of the system.
